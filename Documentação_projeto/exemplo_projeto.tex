@@ -1,0 +1,153 @@
+%%
+%% This is file `example.tex',jjjjjjjjjjjjjjjjjjjjjjjjjjjj
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% coppe.dtx  (with options: `example')
+%% 
+%% This is a sample monograph which illustrates the use of `coppe' document
+%% class and `coppe-unsrt' BibTeX style.
+%% 
+%% \CheckSum{1416}
+%% \CharacterTable
+%%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%%   Digits        \0\1\2\3\4\5\6\7\8\9
+%%   Exclamation   \!     Double quote  \"     Hash (number) \#
+%%   Dollar        \$     Percent       \%     Ampersand     \&
+%%   Acute accent  \'     Left paren    \(     Right paren   \)
+%%   Asterisk      \*     Plus          \+     Comma         \,
+%%   Minus         \-     Point         \.     Solidus       \/
+%%   Colon         \:     Semicolon     \;     Less than     \<
+%%   Equals        \=     Greater than  \>     Question mark \?
+%%   Commercial at \@     Left bracket  \[     Backslash     \\
+%%   Right bracket \]     Circumflex    \^     Underscore    \_
+%%   Grave accent  \`     Left brace    \{     Vertical bar  \|
+%%   Right brace   \}     Tilde         \~}
+%%
+\documentclass[grad,numbers]{coppe}
+\usepackage{amsmath,amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{gensymb}
+\usepackage{caption}
+\usepackage[siunitx, american, plcs]{circuitikz}
+\usepackage[siunitx]{circuitikz}
+\usepackage{subcaption}
+\usepackage{siunitx}
+\usepackage{indentfirst}
+\usepackage[table,xcdraw]{xcolor}
+\makelosymbols
+\makeloabbreviations
+
+\begin{document}
+  \title{\textbf{Relatório final Letras- Libras}}
+  \foreigntitle{Thesis Title}
+  \author{\textbf \\  Wesley da Silva Vanderlei (119089795) }{}
+  \advisor{Prof.}{João}{Paulo}{D.Sc.}
+  
+  \date{11}{2025}
+
+  \maketitle
+  %\frontmatter
+
+  %\makecatalog
+
+  \tableofcontents
+
+  \printlosymbols
+
+  \printloabbreviations
+   \mainmatter
+%  \doublespacing
+
+\chapter{Introdução}
+ 
+ \section {Introdução}
+
+
+
+\newline
+\newline
+ 
+
+
+
+
+
+
+ 
+
+\section{Desenvolvimento}
+\subsection{Aspectos educacionais}
+
+
+\newline
+
+\subsection{Aspectos culturais}
+
+
+
+\subsection{Importância da história}
+
+\newline
+	
+\newline
+
+\newline
+
+
+
+
+
+
+\section{Conclusões}
+
+
+
+ \chapter{Explicação do código}
+ \chapter{Manual do Usuário}
+ \section{Elementos}
+ \subsection{Criação de um elemento}
+ Para criar um elemento qualquer(contato,bobina) o usuario deve escrever o seguinte codigo:
+
+ \begin{verbatim}
+criar_lemento(nome,tipo,extra)
+\end{verbatim}
+
+Onde o nome deve ser o nome dado ao elemento na forma de string, tipo é o tipo do elemento em letras minusculas e extra pode ou nao ser colocado
+
+
+\chapter{Conexão entre elementos}
+\section{Powerail}
+\subsection{1 elemento a 1 elemento}
+
+
+Para fazer a conexão de um elemento a outro elemento é necessario usar o comando fio master(('Nome elemento 1','tipo elemento1'),('Nome elemento 2','Tipo elemento 2'):
+
+
+
+ \begin{verbatim}
+fio_master(('Contato1','contato'),('Bobina1','bobina'))
+\end{verbatim}
+
+
+\subsection{Varios elementos a 1 elemento}
+
+\begin{verbatim}
+fio_master([('Contato1','contato'),...('Contaton','contato')],('Bobina1','bobina'))
+\end{verbatim}
+
+  
+\end{document}
+%% 
+%%
+%% End of file `example.tex'.

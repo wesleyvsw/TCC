@@ -1,0 +1,10 @@
+This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+Scanning style file ./coppe.ist....
+** Input style error (file = ./coppe.ist, line = 51):
+   -- Unknown specifier lethead_flag.
+...done (7 attributes redefined, 1 ignored).
+Scanning input file exemplo_projeto.syx....done (2 entries accepted, 0 rejected).
+Sorting entries....done (2 comparisons).
+Generating output file exemplo_projeto.los....done (7 lines written, 0 warnings).
+Output written in exemplo_projeto.los.
+Transcript written in exemplo_projeto.ilg.
